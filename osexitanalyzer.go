@@ -8,8 +8,8 @@ import (
 	"golang.org/x/tools/go/analysis"
 )
 
-// OsExitAnalyzer reports usage of os.Exit() in main() function of package main.
-var OsExitAnalyzer = &analysis.Analyzer{
+// Analyzer reports usage of os.Exit() in main() function of package main.
+var Analyzer = &analysis.Analyzer{
 	Name: "osexit",
 	Doc:  "check for usage of os.Exit() in main() function of package main",
 	Run:  run,

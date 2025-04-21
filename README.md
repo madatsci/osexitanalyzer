@@ -1,6 +1,6 @@
 # osexitanalyzer
 
-Reports usage of os.Exit() in main() function of package main.
+Reports usage of `os.Exit()` in `main()` function of package main.
 
 Example:
 
